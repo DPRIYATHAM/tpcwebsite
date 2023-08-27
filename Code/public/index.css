@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0px;
+}
+/* @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+*{
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin: 0px;
+} */
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    position:relative;
+}
+.container{
+    width: 23rem;
+    display: flex;
+    flex-direction: column;
+    padding-right: 5rem;
+    position: absolute;
+    left:15%;
+    top:30%;
+    border-right: 2px solid black; 
+}
+
+#resetPassword{
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    height: 30px;
+    outline: none;
+    width: 50%;
+    color: black;
+    background: rgba(255,255,255,0.7);
+    cursor: pointer;
+    transition: .3s ;
+    margin-left:12%;
+    border:2px solid black;
+    margin-top: 1rem;
+    z-index:1
+}
+
+#signup {
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    height: 30px;
+    outline: none;
+    width: 35%;
+    color: black;
+    background: rgba(255,255,255,0.7);
+    cursor: pointer;
+    transition: .3s ;
+    /* margin-left:12%; */
+    border:2px solid black;
+    margin-top: 1rem;
+    float: left;
+    z-index:1
+}
+
+#google {
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    height: 2.5rem;
+    outline: none;
+    width: 75%;
+    color: black;
+    background: rgba(255,255,255,0.7);
+    cursor: pointer;
+    transition: .3s ;
+    margin-left:12%;
+    border:2px solid black;
+    margin-top: 1rem;
+    z-index:1
+}
+
+#google img{
+    width: 1.5rem;
+    height: 1.5rem;
+    vertical-align: middle;
+}
+
+
+.input-field{
+    z-index:1;
+    margin-bottom: 8px;
+}
+.foot{
+    position: absolute;
+    top:15%;
+    right:5%;
+    z-index: 1;
+}
+
+.foot img{
+    width:500px;
+    height: 500px;
+}
+
+span{
+    color: black;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 0 0.5rem 0;
+    display: inline;
+}
+
+header{
+    color: black;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+
+.input-field .input{
+    height: 45px;
+    width: 87%;
+    border-radius: 30px;
+    color: black;
+    font-size: 15px;
+    padding: 0 0 0 45px;
+    background: rgba(255,255,255,0.1);
+    outline: none;
+    border:2px solid black;
+    /* margin-top: 15px; */
+}
+i{
+    position: relative;
+    top: -33px;
+    left: 17px;
+    color: black;
+}
+::-webkit-input-placeholder{
+    color: black;
+}
+.submit{
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    height: 45px;
+    outline: none;
+    width: 50%;
+    color: black;
+    background: rgba(255,255,255,0.7);
+    cursor: pointer;
+    transition: .3s ;
+    margin-left:20%;
+    border:2px solid black;
+}
+.submit:hover{
+    box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
+}
+.two-col{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: black;
+    font-size: small;
+    margin-top: 10px;
+    font-size: 16px;
+}
+.one{
+    display: flex;
+}
+label a{
+    text-decoration: none;
+    color:black;
+    font-size: 16px;
+}
+.logo{
+    position: absolute;
+    top:25px;
+    right:30px;
+}
+
+.logo img{
+    width:200px;
+    height:100px;
+}
+
+.top span{
+    font-size: 16px;
+}
+
+.footer{
+    background-color: grey;
+    height:4rem;
+    padding-top: 0.6rem;
+}
+
+.footer img{
+    margin-right:5rem;
+    width:2rem;
+    height: 2rem;
+    margin-top:1rem;
+    display: flex; 
+    float: right; 
+    cursor: pointer;
+}
+
+
+#txt{
+    margin-top:38px;
+    float:right;
+    color:black;
+    font-size: 1.5rem;
+}
+
+.ctn{
+    position:absolute;
+    left:50px;
+    top:25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+
+.ctn>h2{
+    font-size: 2.5rem;
+    margin-left: 20px;
+}
+
+.top button{
+    background: transparent;
+    border:none;
+    margin-bottom: 0px;
+}
+
+@media screen and (min-width:600px) and (max-width:800px){
+    .foot{
+        z-index:0;
+        opacity:0.4;
+    }
+    .ctn2{
+        width:100%;
+        z-index:1;
+    }
+}
+
+@media screen and (max-width:600px){
+    .foot{
+        opacity: 0.4;
+        z-index: 0;
+    }
+    .footer{
+        width:100%;
+    }
+    .footer img{
+        margin-left:15px;
+        margin-right:65px;
+        margin-top:5px;
+    }
+    #txt{
+        float:none;
+        margin-top:5px;
+    }
+    .container{
+        border: none;
+    }
+    .logo{
+        display: none;
+    }
+}
