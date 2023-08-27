@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <link rel="icon" href="../images/logo-mini.png" />
+    <link rel="stylesheet" href="profile.css" />
+  </head>
+  <body>
+    <div class="nav-hold">
+      <ul>
+        <a id="dref" href="./dashboard.html"
+          ><li>Placement Cell IIIT Kottayam</li></a
+        >
+        <li class="right-most" id="wel_name"></li>
+        <div class="dropdown" style="float: right">
+          <button class="dropbtn">
+            <a href="../student/profile.html"
+              ><img src="../images/user.png" alt="profile-picture"
+            /></a>
+          </button>
+          <div class="dropdown-content">
+            <a id="edit" onclick="window.location.href = '../student/edit.html'"
+              >Edit Profile</a
+            >
+            <a id="log_out">LogOut</a>
+          </div>
+        </div>
+      </ul>
+    </div>
+    <!-- <br>
+    <div class="nav-hold">
+        <ul>
+          <a id="dref" href="./dashboard.html"><li>Placement Cell IIIT Kottayam</li></a>
+          <li class="right-most" id="wel_name"></li>
+          <button id="edit" onclick="window.location.href = '../student/edit.html'"><a style="color: #141414; text-decoration: none;">Edit Profile <img style="padding-top: 0.2rem; height: 1.2rem;" src="../images/pencil.png"/></a></button>
+          <button id="log_out">Logout</button>
+          <a href="../student/profile.html"><img src="../images/user.png" alt="profile-picture" /></a>
+        </ul>
+    </div> -->
+    <div class="main">
+      <div class="detailsbar">
+        <ul>
+          <li id="basic">Basic Details</li>
+          <li id="educational">Educational Details</li>
+          <li id="additional">Additional Details</li>
+          <li id="history">History</li>
+        </ul>
+      </div>
+      <div id="details"></div>
+    </div>
+    <script src="profile.js" type="module"></script>
+    <script></script>
+  </body>
+</html>

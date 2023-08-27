@@ -1,0 +1,60 @@
+### Using script method in Firebase app registration
+
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.1/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.22.1/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyBlHdhJSdkhU2Jc4pWP7CcindVayXkz8dk",
+    authDomain: "tpcwebsite-41b39.firebaseapp.com",
+    projectId: "tpcwebsite-41b39",
+    storageBucket: "tpcwebsite-41b39.appspot.com",
+    messagingSenderId: "852599035033",
+    appId: "1:852599035033:web:285ddc7f7a3f8893199408",
+    measurementId: "G-SZ0XQ35N3T"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+
+### Using npm method in Firebase app registration
+
+$npm install firebase
+
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyBlHdhJSdkhU2Jc4pWP7CcindVayXkz8dk",
+  authDomain: "tpcwebsite-41b39.firebaseapp.com",
+  projectId: "tpcwebsite-41b39",
+  storageBucket: "tpcwebsite-41b39.appspot.com",
+  messagingSenderId: "852599035033",
+  appId: "1:852599035033:web:285ddc7f7a3f8893199408",
+  measurementId: "G-SZ0XQ35N3T"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+
+
+###
+
+firebase login
+
+firebase init
+
+firebase deploy

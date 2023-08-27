@@ -1,0 +1,260 @@
+<html>
+
+  <head>
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="registration.css" />
+    <link rel="shortcut icon" type="image/png" href="../images/logo-mini.png"/>
+  </head>
+
+  <body>
+    <div class="box">
+    <div class="container">
+    <!-- <img style="height: 2rem; margin-left: 1rem; display: flex; float: right; cursor: pointer;" src="../images/close.png" id = "close"></img> -->
+      <h2>Registration Form</h2>
+      <h3>Basic Details:</h3>
+      <table id="basic_info">
+        <tr>
+          <td>
+            <label>Name:</label>
+            <input type="text" id="name"/>
+          </td>
+          <td>
+            <label>Gender:</label>
+            <select id="gender">
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+              <option value="Others">Others</option>
+            </select>
+          </td>
+          <td>
+            <label>DOB:</label>
+            <input type="date" id="dob" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label>Phone Number:</label>
+            <input type="text" id="phone" />
+          </td>
+          <td colspan="2">
+            <label>Personal Email I'd:</label>
+            <input type="email" id="pemail" />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <label >Address:</label><br />
+            <textarea id="address"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label>City:</label>
+            <input type="text" id="city" />
+          </td>
+          <td>
+            <label> State: </label>
+            <input type="text" id="state" />
+          </td>
+          <td>
+            <label>Pin Code:</label>
+            <input type="text" id="pincode" />
+          </td>
+        </tr>
+      </table>
+      <hr>
+
+      <h3>Educational Details:</h3>
+      <table name="edu_info" id="edu_info">
+        <tr>
+          <td>
+            <label>Roll Number:</label>
+            <input type="text" id="roll" placeholder="Ex: 2021BCY0007" />
+          </td>
+          <td>
+            <label>Degree:</label>
+            <select id="degree">
+              <option value="B.tech">B.Tech</option>
+            </select>
+          </td>
+          <td>
+            <label>Batch / Year:</label>
+            <select id="batch">
+              <option value="2020">2020</option>
+              <option value="2021">2021</option>
+              <option value="2022">2022</option>
+              <option value="2023">2023</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label >Major / Course:</label>
+            <select id="course">
+                <option value="cse">Computer Science Engineering</option>
+                <option value="csy">CSE - Cyber Security</option>
+                <option value="csd">CSE - AI & Data Science</option>
+                <option value="ece">Electronics and Communication Engineering</option>
+              </select>
+          </td>
+          <td>
+            <label>CGPA:</label>
+            <input type="text" id="cgpa" />
+          </td>
+          <td>
+            <label>Active backlogs:</kabel>
+            <select id="backlogs">
+              <option value="No">No</option>
+              <option value="Yes">Yes</option>
+          </td>
+          
+        </tr>
+      </table>
+      <hr>
+
+      <h3>10th Qualification Details:</h3>
+      <table id="10th_info">
+        <tr>
+            <td>
+                <label>10th Board:</label>
+                <input type="text" id="10board" placeholder="kerala State Board">
+            </td>
+            <td>
+                <label>10th School:</label>
+                <input type="text" id="10school">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>10th Percentage:</label>
+                <input type="text" id="10percent">
+            </td>
+            <td>
+                <label>Passing Year:</label>
+                <input type="text" id="10passingyr">
+            </td>
+            <td>
+                <label>Gap Years:</label>
+                <select id="10gap">
+                    <option value="None">None</option>
+                    <option value="1">1 year</option>
+                    <option value="2">2 year</option>
+                  </select>
+            </td>
+        </tr>
+      </table>
+      <hr>
+
+      <h3>12th Qualification Details:</h3>
+      <table id="12th_info">
+        <tr>
+            <td>
+                <label>12th Board:</label>
+                <input type="text" id="12board">
+            </td>
+            <td>
+                <label>12th School:</label>
+                <input type="text" id="12school">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>12th Percentage:</label>
+                <input type="text" id="12percent">
+            </td>
+            <td>
+                <label>Passing Year:</label>
+                <input type="text" id="12passingyr">
+            </td>
+            <td>
+                <label>Gap Years:</label>
+                <select id="12gap">
+                    <option value="None">None</option>
+                    <option value="1">1 year</option>
+                    <option value="2">2 year</option>
+                  </select>
+            </td>
+        </tr>
+      </table>
+      <hr>
+      
+      <h3>Post Graduation Details: </h3>
+      <table id="pg_info">
+        <tr>
+            <td>
+                <label>Post Graduation Course:</label>
+                <input type="text" id="pgcourse" value="Not Available">
+            </td>
+            <td >
+                <label >Post Graduation Institute:</label>
+                <input type="text" id="pginstitute" value="Not Available">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Post Graduation Percentage:</label>
+                <input type="text" id="pgpercent" value="Not Available">
+            </td>
+            <td>
+                <label >Passing Year:</label>
+                <input type="text" id="pgpassingyr" value="Not Available">
+            </td>
+            <td>
+                <label>Gap Years:</label>
+                <select id="pggap">
+                    <option value="None">None</option>
+                    <option value="1">1 year</option>
+                    <option value="2">2 year</option>
+                  </select>
+            </td>
+        </tr>
+      </table>
+      <hr>
+      <h3>Additional Information:</h3>
+      <table id="add_info">
+        <tr>
+          <td colspan="3">
+              <label>Work Experience:</label>
+              <input type="text" id="workexp">
+          </td>
+      </tr>
+        <tr>
+            <td colspan="2">
+                <label>Relevant Skills:</label>
+                <input type="text" id="skills" placeholder="Keep skills as comma seperated values...">
+            </td>
+            <td>
+              <label>Preffered Coding Language:</label>
+              <input type="text" id="pref_codingLang">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <label >Resume Link(Upload your pdf in google drive share the link with access to <b>Anyone with Link</b>):</label>
+                <input type="text" id="resume_link" placeholder="Please make sure, the link is accessible to anyonne with link, else your application would be rejected by th company.">
+            </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <label>LinkedIn Profile (Url):</label>
+            <input type="text" id="linkedin_url">
+          </td>
+          <td colspan="2">
+            <label>GitHub Profile (Url):</label>
+            <input type="text" id="github_url">
+          </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <label>Awards and Honour:</label>
+                <input type="text" id="awards">
+            </td>
+        </tr>
+      </table>
+      <hr>
+      <center><input type="submit" class="submit" id="submitdetails" /></center>
+    </div>
+    </div>
+    <script src="registration.js" type="module"></script>
+  </body>
+</html>
