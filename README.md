@@ -1,8 +1,7 @@
-
 # About the Software
 ## Software Functions
 The Software will provide you with the following functions:
-- **Student Registration:** Students of Indian Institute of Information Technology Kottayam, will be able to register and provide all the required details. (*Authenticated*)
+- **Student Registration:** Students of Indian Institute of Information Technology Kottayam, will be able to register and provide all the required details.
 - **Applying for a drive:** Students can apply for a drive, and the student information regarding the drive will be shared with the respective company.
 - **Creating a Drive:** The Placement Coordinator will create a new drive so that interested students can apply for the drive.
 - **Updating Drive Required Data:** Sometimes, Companies will modify their requirements from the student data, The Placement coordinator, should be able to get that data, by modifying the drive.
@@ -17,3 +16,5 @@ The Software System will maintain the following data in a logical database:
 - **Student Information:** Name, Email address, phone number, 10th grade, 12th grade, Cgpa, Sgpa, roll number, login ID, password, resume link, certifications link.
 - **Drive History:** Driveid, drive status, performance, experience
 - **Company Information:** CompanyId, Company Name, CTC, location, role.
+
+# Installing and running the Software
