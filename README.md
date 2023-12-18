@@ -1,3 +1,5 @@
+
+# About the Software
 ## Software Functions
 The Software will provide you with the following functions:
 - **Student Registration:** Students of Indian Institute of Information Technology Kottayam, will be able to register and provide all the required details. (*Authenticated*)
