@@ -1,4 +1,4 @@
-# About the Software
+# About the Application
 ## Software Functions
 The Software will provide you with the following functions:
 - **Student Registration:** Students of Indian Institute of Information Technology Kottayam, will be able to register and provide all the required details.
@@ -17,4 +17,4 @@ The Software System will maintain the following data in a logical database:
 - **Drive History:** Driveid, drive status, performance, experience
 - **Company Information:** CompanyId, Company Name, CTC, location, role.
 
-# Installing and running the Software
+# Installing and running the Application
