@@ -18,3 +18,5 @@ The Software System will maintain the following data in a logical database:
 - **Company Information:** CompanyId, Company Name, CTC, location, role.
 
 # Installing and running the Application
+
+- Navigate to the Folder Code, where you will find the complete code regarding the application.
