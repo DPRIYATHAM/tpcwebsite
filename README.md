@@ -20,5 +20,6 @@ The Software System will maintain the following data in a logical database:
 # Installing and running the Application
 
 1. Create a project on Firebase.
+2. Make note of the secret keys and connections required to connect the application to firebase.
   - Integrate with the application.
 - Navigate to the Folder Code, where you will find the complete code regarding the application.
